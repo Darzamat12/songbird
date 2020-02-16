@@ -1,0 +1,24 @@
+.game-over{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+    height:600px;
+}
+.game-over_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-again{
+    background:linear-gradient(rgba(255,105,30,1) 0%, rgba(230,95,28,1) 100%);
+    padding: 15px 45px;
+    font-size: 22px;
+    border: 1px solid rgba(0,0,0,0.21);
+    border-bottom: 4px solid rgba(0,0,0,0.21);
+    border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+    widows: 80%;
+    color:white;    
+}

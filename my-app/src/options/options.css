@@ -1,0 +1,45 @@
+.options{
+    border-radius: 2%;
+    background-color:#303030;
+    width:48%;
+    height:270px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0;
+    position: relative;
+  
+  }
+  .option{
+    cursor:pointer;
+    font-size:20px;
+    color:white;
+    border:rgba(115,115,115,0.2) solid 1px;
+    position:relative;
+    margin-left:30px;
+    height:16.66%;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+  }
+  .option::before{ 
+    content: "\2022"; 
+    display: inline-block;
+    font-size: 1em; 
+    left: -1.1225em; 
+    position: absolute;
+  }
+  
+  .right-answer::before{
+    color:green;
+  }
+  
+  .wrong-answer::before{
+    color:red;
+  }
+
+  @media(max-width:800px){
+    .options{
+      width:100%;
+    }
+  }

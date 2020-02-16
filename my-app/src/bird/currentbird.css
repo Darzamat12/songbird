@@ -1,0 +1,45 @@
+.current__bird{
+    width:48%;
+    color:white;
+    background-color:#303030;
+    border-radius: 2%;
+    padding:10px;
+  }
+  .main-image{
+    width:48%;
+    height: 10em;
+  }
+  
+  .main-information{
+    display:flex;
+    margin-bottom:15px;
+  }
+  
+  .main-information_wrapper{
+    display:flex;
+    width:100%;
+    margin-left:20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .main-name{
+    font-size:27px;
+  
+  }
+  .main-family{
+    font-size:18px;
+  }
+
+  .rhap_container{
+    min-width:100px;
+    width:100%;
+  }
+
+  @media(max-width:800px){
+   
+      .current__bird{
+        width:100%;
+        margin-top:15px;
+      }
+
+  }
