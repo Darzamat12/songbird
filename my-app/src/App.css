@@ -75,7 +75,7 @@ body{
   color:white;
   cursor:pointer;
   border:rgba(115,115,115,0.2) solid 1px;
-  border-radius: 2%;
+  border-radius: 15px;
 }
 
 @media(max-width:800px){

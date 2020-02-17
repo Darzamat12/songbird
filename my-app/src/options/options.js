@@ -43,3 +43,15 @@ export default class AnswerOptions extends React.Component{
         </div>
       }
     }
+
+
+    function sum(a){
+      let currentSum=a;
+      return function sf(b){
+        currentSum+=b;
+        if(b){
+          return sf(b);
+        }
+        else return currentSum;
+      }
+    }

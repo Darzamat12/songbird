@@ -4,6 +4,7 @@
     align-items:center;
     justify-content: space-evenly;
     height:600px;
+    color:white;
 }
 .game-over_text{
     display: flex;

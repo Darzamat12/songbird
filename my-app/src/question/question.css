@@ -1,5 +1,5 @@
 .question{
-    border-radius: 2%;
+    border-radius: 10px;
     background-color:#303030;
     display:flex;
     justify-content: space-evenly;
@@ -12,6 +12,7 @@
   }
   .rhap_container{
     min-width:100px;
+    border-radius: 15px;
     width:100%;
   }
   .rhap_additional-controls, .rhap_volume-controls, .rhap_rewind-button, .rhap_forward-button{
