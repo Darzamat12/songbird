@@ -21,7 +21,7 @@ export default class CurrentBird extends React.Component{
     <div className="description">{dataBird.description}</div>
       </div>
       }
-       else return <></>
+       else return <div className="current__bird">Прослушайте запись звуков птицы и выберете наиболее подходящую птицу из списка слева</div>
     }
   
   }
