@@ -1,0 +1,29 @@
+.question{
+    border-radius: 10px;
+    background-color:#303030;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:30px;
+  }
+  
+  .main_name{
+    font-size:30px;
+    color:white;
+  }
+  .rhap_container{
+    min-width:100px;
+    border-radius: 15px;
+    width:100%;
+  }
+  .rhap_additional-controls, .rhap_volume-controls, .rhap_rewind-button, .rhap_forward-button{
+    display:none!important;
+  }
+
+  .question-image{
+    width: 200px;
+    height: 100%;
+  }
+
+  .question__main{
+    width:50%;
+  }

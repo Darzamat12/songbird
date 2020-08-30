@@ -1,0 +1,32 @@
+.sections{
+  border-radius: 15px;
+    color:white;
+    display:flex;
+    width:100%;
+    justify-content:space-evenly;
+    padding:5px;
+    margin:10px 0;
+    background-color:#008966
+
+  
+  }
+  .section{
+    padding: 0 5px;
+    display:flex;
+    justify-content: center;
+    width:16.66%;
+    border-radius: 15px;
+  }
+  .active-section{
+    background-color:#00bc8c
+  }
+
+  @media(max-width:500px){
+    .sections{
+      flex-direction: column;
+    }
+    .section{
+      border-radius:26%;
+      width:auto;
+    }
+  }
